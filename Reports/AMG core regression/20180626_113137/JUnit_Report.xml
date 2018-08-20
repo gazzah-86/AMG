@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AMG core regression" time="236" tests="3" failures="4" errors="0">
+   <testsuite name="AMG core regression" tests="3" failures="4" errors="0" time="236" timestamp="2018-06-26 11:31:39" hostname="ghetherington - REA0WS0240.emea.corp.jwt.com" id="Test Suites/AMG core regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137"/>
+         <property name="logFiles" value="C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009203583.png, C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009233782.png, C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009234479.png, C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009284267.png, C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009333446.png, C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009334152.png"/>
+         <property name="hostName" value="ghetherington - REA0WS0240.emea.corp.jwt.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="10.193.176.84"/>
+         <property name="sessionId" value="2dfd99d811ebd224ad8fc1908bf1066a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Local country disclaimer/Site disclaimer - rejection" classname="Test Cases/Local country disclaimer/Site disclaimer - rejection" status="PASSED">
+         <system-out><![CDATA[2018-06-26 11:31:39 - [TEST_CASE][PASSED] - Test Cases/Local country disclaimer/Site disclaimer - rejection: Test Cases/Local country disclaimer/Site disclaimer - rejection
+
+2018-06-26 11:31:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 11:31:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 11:31:44 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-06-26 11:31:44 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-06-26 11:31:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-06-26 11:31:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor' successfully
+
+2018-06-26 11:31:58 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor' successfully
+
+2018-06-26 11:31:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:31:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:31:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Decline' is clicked on
+
+2018-06-26 11:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Decline' is clicked on
+
+2018-06-26 11:32:00 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to HSBC Global Asset Management' is present on page 
+
+2018-06-26 11:32:00 - [MESSAGE][PASSED] - Text 'Welcome to HSBC Global Asset Management' is present on page 
+
+2018-06-26 11:32:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-26 11:32:01 - [MESSAGE][PASSED] - Browser is closed
+
+2018-06-26 11:32:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 11:32:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 11:32:04 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-06-26 11:32:04 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-06-26 11:32:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-06-26 11:32:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/de-ch/qualified-investor' successfully
+
+2018-06-26 11:32:16 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/de-ch/qualified-investor' successfully
+
+2018-06-26 11:32:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:32:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:32:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Ablehnen' is clicked on
+
+2018-06-26 11:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Ablehnen' is clicked on
+
+2018-06-26 11:32:18 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Willkommen bei HSBC Global Asset Management (Switzerland)' is present on page 
+
+2018-06-26 11:32:19 - [MESSAGE][PASSED] - Text 'Willkommen bei HSBC Global Asset Management (Switzerland)' is present on page 
+
+2018-06-26 11:32:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-26 11:32:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Local country disclaimer/Switching languages - disclaimer" classname="Test Cases/Local country disclaimer/Switching languages - disclaimer" status="PASSED">
+         <system-out><![CDATA[2018-06-26 11:32:19 - [TEST_CASE][PASSED] - Test Cases/Local country disclaimer/Switching languages - disclaimer: Test Cases/Local country disclaimer/Switching languages - disclaimer
+
+2018-06-26 11:32:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 11:32:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 11:32:22 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-06-26 11:32:22 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-06-26 11:32:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-06-26 11:32:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor' successfully
+
+2018-06-26 11:32:36 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor' successfully
+
+2018-06-26 11:32:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:32:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:32:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/h3_Terms and conditions' are matched.
+
+2018-06-26 11:32:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/h3_Terms and conditions' are matched.
+
+2018-06-26 11:32:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:32:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:32:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:32:37 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-06-26 11:32:38 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-06-26 11:32:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Country_switcher' is clicked on
+
+2018-06-26 11:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Country_switcher' is clicked on
+
+2018-06-26 11:32:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Deutsch' is clicked on
+
+2018-06-26 11:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Deutsch' is clicked on
+
+2018-06-26 11:32:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/h3_Nutzungsbedingungen' is present
+
+2018-06-26 11:32:39 - [MESSAGE][PASSED] - Object 'Object Repository/h3_Nutzungsbedingungen' is present
+
+2018-06-26 11:32:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Annehmen' is clicked on
+
+2018-06-26 11:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Annehmen' is clicked on
+
+2018-06-26 11:32:39 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/a_Emerging Markets Investor Gu' is clickable
+
+2018-06-26 11:32:39 - [MESSAGE][PASSED] - Object 'Object Repository/a_Emerging Markets Investor Gu' is clickable
+
+2018-06-26 11:32:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Country_switcher' is visible
+
+2018-06-26 11:32:39 - [MESSAGE][PASSED] - Object 'Object Repository/Country_switcher' is visible
+
+2018-06-26 11:32:39 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Country_switcher' is clickable
+
+2018-06-26 11:32:39 - [MESSAGE][PASSED] - Object 'Object Repository/Country_switcher' is clickable
+
+2018-06-26 11:32:39 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-06-26 11:32:39 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-06-26 11:32:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Country_switcher' is clicked on
+
+2018-06-26 11:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Country_switcher' is clicked on
+
+2018-06-26 11:32:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Franais' is clicked on
+
+2018-06-26 11:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Franais' is clicked on
+
+2018-06-26 11:32:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/h3_Conditions gnrales' is present
+
+2018-06-26 11:32:40 - [MESSAGE][PASSED] - Object 'Object Repository/h3_Conditions gnrales' is present
+
+2018-06-26 11:32:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-26 11:32:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-26 11:32:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Accepter' is clicked on
+
+2018-06-26 11:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Accepter' is clicked on
+
+2018-06-26 11:32:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-26 11:32:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/404 errors/404 error pages" classname="Test Cases/404 errors/404 error pages" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/a_Accepter' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;#&quot; class=&quot;button button--primary button--large terms-and-conditions-modal__proceed&quot; aria-describedby=&quot;terms-and-conditions-modal__active-proceed-button-description&quot; aria-live=&quot;polite&quot;>...&lt;/a> is not clickable at point (1026, 616). Other element would receive the click: &lt;div class=&quot;terms-and-conditions-modal__body&quot; style=&quot;min-height: 263px; height: auto; top: 116px; bottom: 193px;&quot;>...&lt;/div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'REA0WS0240', ip: '10.193.176.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GHETHE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: b73147bb08e00de2b4f62fd321b53e8a)"/>
+         <system-out><![CDATA[2018-06-26 11:32:42 - [TEST_CASE][FAILED] - Test Cases/404 errors/404 error pages: Test Cases/404 errors/404 error pages FAILED because (of) Unable to click on object 'Object Repository/a_Accepter' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" class="button button--primary button--large terms-and-conditions-modal__proceed" aria-describedby="terms-and-conditions-modal__active-proceed-button-description" aria-live="polite">...</a> is not clickable at point (1026, 616). Other element would receive the click: <div class="terms-and-conditions-modal__body" style="min-height: 263px; height: auto; top: 116px; bottom: 193px;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'REA0WS0240', ip: '10.193.176.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GHETHE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: b73147bb08e00de2b4f62fd321b53e8a)
+
+2018-06-26 11:32:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 11:32:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 11:32:45 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-06-26 11:32:45 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-06-26 11:32:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-06-26 11:32:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor' successfully
+
+2018-06-26 11:32:58 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor' successfully
+
+2018-06-26 11:32:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:32:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:32:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:32:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:32:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:32:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor/pagedoesnotexist' successfully
+
+2018-06-26 11:33:00 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor/pagedoesnotexist' successfully
+
+2018-06-26 11:33:00 - [TEST_STEP][PASSED] - sendKeys: Keys 'CONTROL + F5 + ' sent to object: 'tempBody'
+
+2018-06-26 11:33:00 - [MESSAGE][WARNING] - Test object id is null
+
+2018-06-26 11:33:00 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-06-26 11:33:00 - [MESSAGE][PASSED] - Keys 'CONTROL + F5 + ' sent to object: 'tempBody'
+
+2018-06-26 11:33:00 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sorry, the page you requested could not be found' is present on page 
+
+2018-06-26 11:33:00 - [MESSAGE][PASSED] - Text 'Sorry, the page you requested could not be found' is present on page 
+
+2018-06-26 11:33:00 - [TEST_STEP][NOT_RUN] - verifyElementVisible: NOT_RUN: verifyElementVisible
+
+2018-06-26 11:33:00 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible
+
+2018-06-26 11:33:00 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-06-26 11:33:00 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-06-26 11:33:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor/investment-expertise/multi-asset/pagedoesnotexist' successfully
+
+2018-06-26 11:33:00 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor/investment-expertise/multi-asset/pagedoesnotexist' successfully
+
+2018-06-26 11:33:00 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sorry, the page you requested could not be found' is present on page 
+
+2018-06-26 11:33:00 - [MESSAGE][PASSED] - Text 'Sorry, the page you requested could not be found' is present on page 
+
+2018-06-26 11:33:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-26 11:33:01 - [MESSAGE][PASSED] - Browser is closed
+
+2018-06-26 11:33:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 11:33:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 11:33:04 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-06-26 11:33:04 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-06-26 11:33:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-06-26 11:33:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor' successfully
+
+2018-06-26 11:33:16 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor' successfully
+
+2018-06-26 11:33:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:33:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:33:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:33:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:33:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:33:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor/pagedoesnotexist' successfully
+
+2018-06-26 11:33:18 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor/pagedoesnotexist' successfully
+
+2018-06-26 11:33:18 - [TEST_STEP][PASSED] - sendKeys: Keys 'CONTROL + F5 + ' sent to object: 'tempBody'
+
+2018-06-26 11:33:18 - [MESSAGE][WARNING] - Test object id is null
+
+2018-06-26 11:33:18 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-06-26 11:33:18 - [MESSAGE][PASSED] - Keys 'CONTROL + F5 + ' sent to object: 'tempBody'
+
+2018-06-26 11:33:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-26 11:33:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-26 11:33:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Institutional investors - HSBC (1)/Page_404 Page not found/English_404' are matched.
+
+2018-06-26 11:33:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Institutional investors - HSBC (1)/Page_404 Page not found/English_404' are matched.
+
+2018-06-26 11:33:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor/investment-expertise/multi-asset/pagedoesnotexist' successfully
+
+2018-06-26 11:33:19 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor/investment-expertise/multi-asset/pagedoesnotexist' successfully
+
+2018-06-26 11:33:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Institutional investors - HSBC (1)/Page_404 Page not found/English_404' are matched.
+
+2018-06-26 11:33:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Institutional investors - HSBC (1)/Page_404 Page not found/English_404' are matched.
+
+2018-06-26 11:33:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/de-ch/qualified-investor' successfully
+
+2018-06-26 11:33:20 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/de-ch/qualified-investor' successfully
+
+2018-06-26 11:33:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Annehmen' is clicked on
+
+2018-06-26 11:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Annehmen' is clicked on
+
+2018-06-26 11:33:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/de-ch/qualified-investor/pagedoesnotexist' successfully
+
+2018-06-26 11:33:21 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/de-ch/qualified-investor/pagedoesnotexist' successfully
+
+2018-06-26 11:33:21 - [TEST_STEP][PASSED] - sendKeys: Keys 'CONTROL + F5 + ' sent to object: 'tempBody'
+
+2018-06-26 11:33:21 - [MESSAGE][WARNING] - Test object id is null
+
+2018-06-26 11:33:21 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-06-26 11:33:21 - [MESSAGE][PASSED] - Keys 'CONTROL + F5 + ' sent to object: 'tempBody'
+
+2018-06-26 11:33:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-26 11:33:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-26 11:33:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Institutional investors - HSBC (1)/Page_404 Page not found/Page_404 Page not found/German error message' are matched.
+
+2018-06-26 11:33:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Institutional investors - HSBC (1)/Page_404 Page not found/Page_404 Page not found/German error message' are matched.
+
+2018-06-26 11:33:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/de-ch/qualified-investor/investment-expertise/multi-asset/pagedoesnotexist' successfully
+
+2018-06-26 11:33:22 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/de-ch/qualified-investor/investment-expertise/multi-asset/pagedoesnotexist' successfully
+
+2018-06-26 11:33:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Institutional investors - HSBC (1)/Page_404 Page not found/Page_404 Page not found/German error message' are matched.
+
+2018-06-26 11:33:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Institutional investors - HSBC (1)/Page_404 Page not found/Page_404 Page not found/German error message' are matched.
+
+2018-06-26 11:33:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/fr-ch/qualified-investor' successfully
+
+2018-06-26 11:33:23 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/fr-ch/qualified-investor' successfully
+
+2018-06-26 11:33:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/a_Accepter' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" class="button button--primary button--large terms-and-conditions-modal__proceed" aria-describedby="terms-and-conditions-modal__active-proceed-button-description" aria-live="polite">...</a> is not clickable at point (1026, 616). Other element would receive the click: <div class="terms-and-conditions-modal__body" style="min-height: 263px; height: auto; top: 116px; bottom: 193px;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'REA0WS0240', ip: '10.193.176.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GHETHE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: b73147bb08e00de2b4f62fd321b53e8a)
+
+2018-06-26 11:33:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/a_Accepter' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" class="button button--primary button--large terms-and-conditions-modal__proceed" aria-describedby="terms-and-conditions-modal__active-proceed-button-description" aria-live="polite">...</a> is not clickable at point (1026, 616). Other element would receive the click: <div class="terms-and-conditions-modal__body" style="min-height: 263px; height: auto; top: 116px; bottom: 193px;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'REA0WS0240', ip: '10.193.176.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GHETHE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: b73147bb08e00de2b4f62fd321b53e8a)
+[[ATTACHMENT|C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009203583.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-26 11:32:42 - [TEST_CASE][FAILED] - Test Cases/404 errors/404 error pages: Test Cases/404 errors/404 error pages FAILED because (of) Unable to click on object 'Object Repository/a_Accepter' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" class="button button--primary button--large terms-and-conditions-modal__proceed" aria-describedby="terms-and-conditions-modal__active-proceed-button-description" aria-live="polite">...</a> is not clickable at point (1026, 616). Other element would receive the click: <div class="terms-and-conditions-modal__body" style="min-height: 263px; height: auto; top: 116px; bottom: 193px;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'REA0WS0240', ip: '10.193.176.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GHETHE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: b73147bb08e00de2b4f62fd321b53e8a)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Document and video filtering/Document library search and filtering" classname="Test Cases/Document and video filtering/Document library search and filtering" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' located by 'By.cssSelector: #module-18 > div > div.col-sm-12.col-md-8 > div > div > div.document-list__filter-summary > button' not found)"/>
+         <system-out><![CDATA[2018-06-26 11:33:25 - [TEST_CASE][FAILED] - Test Cases/Document and video filtering/Document library search and filtering: Test Cases/Document and video filtering/Document library search and filtering FAILED because (of) Unable to verify object 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' located by 'By.cssSelector: #module-18 > div > div.col-sm-12.col-md-8 > div > div > div.document-list__filter-summary > button' not found)
+
+2018-06-26 11:33:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 11:33:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-26 11:33:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 11:33:29 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-06-26 11:33:29 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-06-26 11:33:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-06-26 11:33:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/intermediary/investor-resources' successfully
+
+2018-06-26 11:33:41 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/intermediary/investor-resources' successfully
+
+2018-06-26 11:33:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:33:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:33:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:33:43 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 184, y = 523
+
+2018-06-26 11:33:43 - [MESSAGE][PASSED] - Browser is scrolled to position x = 184, y = 523
+
+2018-06-26 11:33:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-26 11:33:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 11:33:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Fund information and resources/Document and library search' is clicked on
+
+2018-06-26 11:33:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fund information and resources/Document and library search' is clicked on
+
+2018-06-26 11:33:46 - [TEST_STEP][PASSED] - setText: Text 'Govern' is set on object 'Object Repository/Page_Fund information and resources/Document and library search'
+
+2018-06-26 11:33:46 - [MESSAGE][PASSED] - Text 'Govern' is set on object 'Object Repository/Page_Fund information and resources/Document and library search'
+
+2018-06-26 11:33:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Fund information and resources/Document and library search'
+
+2018-06-26 11:33:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Fund information and resources/Document and library search'
+
+2018-06-26 11:33:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-26 11:33:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-26 11:33:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' located by 'By.cssSelector: #module-18 > div > div.col-sm-12.col-md-8 > div > div > div.document-list__filter-summary > button' not found)
+
+2018-06-26 11:33:54 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' located by 'By.cssSelector: #module-18 > div > div.col-sm-12.col-md-8 > div > div > div.document-list__filter-summary > button' not found
+[[ATTACHMENT|C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009233782.png]]
+
+2018-06-26 11:33:55 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' located by 'By.cssSelector: #module-18 > div > div.col-sm-12.col-md-8 > div > div > div.document-list__filter-summary > button' not found)
+[[ATTACHMENT|C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009234479.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-26 11:33:25 - [TEST_CASE][FAILED] - Test Cases/Document and video filtering/Document library search and filtering: Test Cases/Document and video filtering/Document library search and filtering FAILED because (of) Unable to verify object 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Fund information and resources (1)/Doc and video clear button' located by 'By.cssSelector: #module-18 > div > div.col-sm-12.col-md-8 > div > div > div.document-list__filter-summary > button' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Document and video filtering/Video and webinar search and filtering" classname="Test Cases/Document and video filtering/Video and webinar search and filtering" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Video and webinars/Page_Videos and Webinars - Intermed (3)/Page_Institutional investors - HSBC/button_Hide breaking news bann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video and webinars/Page_Videos and Webinars - Intermed (3)/Page_Institutional investors - HSBC/button_Hide breaking news bann' located by 'By.cssSelector: .breaking-news-banner__close-button' not found)"/>
+         <system-out><![CDATA[2018-06-26 11:33:55 - [TEST_CASE][FAILED] - Test Cases/Document and video filtering/Video and webinar search and filtering: Test Cases/Document and video filtering/Video and webinar search and filtering FAILED because (of) Unable to click on object 'Object Repository/Video and webinars/Page_Videos and Webinars - Intermed (3)/Page_Institutional investors - HSBC/button_Hide breaking news bann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video and webinars/Page_Videos and Webinars - Intermed (3)/Page_Institutional investors - HSBC/button_Hide breaking news bann' located by 'By.cssSelector: .breaking-news-banner__close-button' not found)
+
+2018-06-26 11:33:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 11:33:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-26 11:33:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 11:33:58 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-06-26 11:33:58 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-06-26 11:33:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-06-26 11:34:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor/investor-resources/videos-and-webinars' successfully
+
+2018-06-26 11:34:11 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor/investor-resources/videos-and-webinars' successfully
+
+2018-06-26 11:34:11 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + F5 + ' sent to object: 'tempBody'
+
+2018-06-26 11:34:11 - [MESSAGE][WARNING] - Test object id is null
+
+2018-06-26 11:34:11 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-06-26 11:34:11 - [MESSAGE][PASSED] - Keys 'ENTER + F5 + ' sent to object: 'tempBody'
+
+2018-06-26 11:34:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:34:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:34:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:34:12 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-06-26 11:34:12 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-06-26 11:34:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Video and webinars/Page_Videos and Webinars - Intermed (3)/Page_Institutional investors - HSBC/button_Hide breaking news bann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video and webinars/Page_Videos and Webinars - Intermed (3)/Page_Institutional investors - HSBC/button_Hide breaking news bann' located by 'By.cssSelector: .breaking-news-banner__close-button' not found)
+
+2018-06-26 11:34:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Video and webinars/Page_Videos and Webinars - Intermed (3)/Page_Institutional investors - HSBC/button_Hide breaking news bann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video and webinars/Page_Videos and Webinars - Intermed (3)/Page_Institutional investors - HSBC/button_Hide breaking news bann' located by 'By.cssSelector: .breaking-news-banner__close-button' not found)
+[[ATTACHMENT|C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009284267.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-26 11:33:55 - [TEST_CASE][FAILED] - Test Cases/Document and video filtering/Video and webinar search and filtering: Test Cases/Document and video filtering/Video and webinar search and filtering FAILED because (of) Unable to click on object 'Object Repository/Video and webinars/Page_Videos and Webinars - Intermed (3)/Page_Institutional investors - HSBC/button_Hide breaking news bann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video and webinars/Page_Videos and Webinars - Intermed (3)/Page_Institutional investors - HSBC/button_Hide breaking news bann' located by 'By.cssSelector: .breaking-news-banner__close-button' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/External modal popup/External modal popup" classname="Test Cases/External modal popup/External modal popup" status="PASSED">
+         <system-out><![CDATA[2018-06-26 11:34:45 - [TEST_CASE][PASSED] - Test Cases/External modal popup/External modal popup: Test Cases/External modal popup/External modal popup
+
+2018-06-26 11:34:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 11:34:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-26 11:34:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 11:34:48 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-06-26 11:34:48 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-06-26 11:34:48 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-06-26 11:34:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.global.cd.rs.hwuat.co.uk/canada' successfully
+
+2018-06-26 11:35:00 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.global.cd.rs.hwuat.co.uk/canada' successfully
+
+2018-06-26 11:35:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:35:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:35:02 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 328, y = 1694
+
+2018-06-26 11:35:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 328, y = 1694
+
+2018-06-26 11:35:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/RIA page link' is clicked on
+
+2018-06-26 11:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/RIA page link' is clicked on
+
+2018-06-26 11:35:02 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/External modal close' is focused
+
+2018-06-26 11:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/External modal close' is focused
+
+2018-06-26 11:35:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/External modal close' is clicked on
+
+2018-06-26 11:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/External modal close' is clicked on
+
+2018-06-26 11:35:02 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 328, y = 1694
+
+2018-06-26 11:35:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 328, y = 1694
+
+2018-06-26 11:35:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-26 11:35:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-26 11:35:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/RIA page link' is clicked on
+
+2018-06-26 11:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/RIA page link' is clicked on
+
+2018-06-26 11:35:03 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/External modal cancel' is focused
+
+2018-06-26 11:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/External modal cancel' is focused
+
+2018-06-26 11:35:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/External modal cancel' is clicked on
+
+2018-06-26 11:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/External modal cancel' is clicked on
+
+2018-06-26 11:35:03 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-06-26 11:35:05 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-06-26 11:35:05 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 328, y = 1694
+
+2018-06-26 11:35:05 - [MESSAGE][PASSED] - Browser is scrolled to position x = 328, y = 1694
+
+2018-06-26 11:35:05 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/RIA page link' is focused
+
+2018-06-26 11:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/RIA page link' is focused
+
+2018-06-26 11:35:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/RIA page link' is clicked on
+
+2018-06-26 11:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C/RIA page link' is clicked on
+
+2018-06-26 11:35:05 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C (1)/External proceed' is focused
+
+2018-06-26 11:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C (1)/External proceed' is focused
+
+2018-06-26 11:35:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C (1)/External proceed' is clicked on
+
+2018-06-26 11:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/External modal/Page_HSBC Global Asset Management C (1)/External proceed' is clicked on
+
+2018-06-26 11:35:05 - [TEST_STEP][PASSED] - switchToWindowUrl: Switched to window with url: 'https://www.riacanada.ca/hsbc-gam-joins-ria/'
+
+2018-06-26 11:35:11 - [MESSAGE][PASSED] - Switched to window with url: 'https://www.riacanada.ca/hsbc-gam-joins-ria/'
+
+2018-06-26 11:35:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/External modal/Page_HSBC Global Asset Management J/RIA H1' is visible
+
+2018-06-26 11:35:11 - [MESSAGE][PASSED] - Object 'Object Repository/External modal/Page_HSBC Global Asset Management J/RIA H1' is visible
+
+2018-06-26 11:35:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/External modal/Page_HSBC Global Asset Management J/RIA H1' is present
+
+2018-06-26 11:35:11 - [MESSAGE][PASSED] - Object 'Object Repository/External modal/Page_HSBC Global Asset Management J/RIA H1' is present
+
+2018-06-26 11:35:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-26 11:35:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Site search/Site search" classname="Test Cases/Site search/Site search" status="FAILED">
+         <failure type="FAILED" message="Unable to verify if object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with value 'pagination__button pagination__button--previous disabled' (Root cause: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with actual value 'pagination' instead of expected value 'pagination__button pagination__button--previous disabled')"/>
+         <system-out><![CDATA[2018-06-26 11:35:12 - [TEST_CASE][FAILED] - Test Cases/Site search/Site search: Test Cases/Site search/Site search FAILED because (of) Unable to verify if object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with value 'pagination__button pagination__button--previous disabled' (Root cause: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with actual value 'pagination' instead of expected value 'pagination__button pagination__button--previous disabled')
+
+2018-06-26 11:35:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 11:35:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 11:35:15 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-06-26 11:35:15 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-06-26 11:35:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-06-26 11:35:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor' successfully
+
+2018-06-26 11:35:27 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor' successfully
+
+2018-06-26 11:35:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 11:35:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 11:35:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Accept' is clicked on
+
+2018-06-26 11:35:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Fund information and resources/Page_Fund information and resources/Global search icon' is visible
+
+2018-06-26 11:35:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Fund information and resources/Page_Fund information and resources/Global search icon' is visible
+
+2018-06-26 11:35:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-26 11:35:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-26 11:35:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Fund information and resources/Page_Fund information and resources/Global search icon' is clicked on
+
+2018-06-26 11:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fund information and resources/Page_Fund information and resources/Global search icon' is clicked on
+
+2018-06-26 11:35:29 - [TEST_STEP][PASSED] - setText: Text 'fund' is set on object 'Object Repository/Global search/Page_Qualified investors - HSBC Glo/Global search input'
+
+2018-06-26 11:35:29 - [MESSAGE][PASSED] - Text 'fund' is set on object 'Object Repository/Global search/Page_Qualified investors - HSBC Glo/Global search input'
+
+2018-06-26 11:35:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Global search/Page_Qualified investors - HSBC Glo/Global search input'
+
+2018-06-26 11:35:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Global search/Page_Qualified investors - HSBC Glo/Global search input'
+
+2018-06-26 11:35:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search results H1' is present
+
+2018-06-26 11:35:32 - [MESSAGE][PASSED] - Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search results H1' is present
+
+2018-06-26 11:35:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search all results tab selected' has attribute 'aria-selected' with value 'true'
+
+2018-06-26 11:35:32 - [MESSAGE][PASSED] - Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search all results tab selected' has attribute 'aria-selected' with value 'true'
+
+2018-06-26 11:35:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search documents not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:32 - [MESSAGE][PASSED] - Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search documents not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search videos not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:32 - [MESSAGE][PASSED] - Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search videos not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search documents not selected' is clicked on
+
+2018-06-26 11:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search documents not selected' is clicked on
+
+2018-06-26 11:35:33 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search documents selected' has attribute 'aria-selected' with value 'true'
+
+2018-06-26 11:35:33 - [MESSAGE][PASSED] - Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search documents selected' has attribute 'aria-selected' with value 'true'
+
+2018-06-26 11:35:33 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Page_Search Results - HSBC Global A/All results not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:33 - [MESSAGE][PASSED] - Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Page_Search Results - HSBC Global A/All results not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:33 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search videos not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:33 - [MESSAGE][PASSED] - Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search videos not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search videos not selected' is clicked on
+
+2018-06-26 11:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search videos not selected' is clicked on
+
+2018-06-26 11:35:33 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search documents not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:33 - [MESSAGE][PASSED] - Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search documents not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:33 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Page_Search Results - HSBC Global A/All results not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:33 - [MESSAGE][PASSED] - Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Page_Search Results - HSBC Global A/All results not selected' has attribute 'aria-selected' with value 'false'
+
+2018-06-26 11:35:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Global search/Page_Search Results - HSBC Global A/Page_Search Results - HSBC Global A/All results not selected' is clicked on
+
+2018-06-26 11:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Global search/Page_Search Results - HSBC Global A/Page_Search Results - HSBC Global A/All results not selected' is clicked on
+
+2018-06-26 11:35:33 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 266, y = 4478
+
+2018-06-26 11:35:33 - [MESSAGE][PASSED] - Browser is scrolled to position x = 266, y = 4478
+
+2018-06-26 11:35:33 - [TEST_STEP][FAILED] - verifyElementAttributeValue: Unable to verify if object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with value 'pagination__button pagination__button--previous disabled' (Root cause: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with actual value 'pagination' instead of expected value 'pagination__button pagination__button--previous disabled')
+
+2018-06-26 11:35:34 - [MESSAGE][FAILED] - Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with actual value 'pagination' instead of expected value 'pagination__button pagination__button--previous disabled'
+[[ATTACHMENT|C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009333446.png]]
+
+2018-06-26 11:35:34 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with value 'pagination__button pagination__button--previous disabled' (Root cause: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with actual value 'pagination' instead of expected value 'pagination__button pagination__button--previous disabled')
+[[ATTACHMENT|C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG core regression\\20180626_113137\\1530009334152.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-26 11:35:12 - [TEST_CASE][FAILED] - Test Cases/Site search/Site search: Test Cases/Site search/Site search FAILED because (of) Unable to verify if object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with value 'pagination__button pagination__button--previous disabled' (Root cause: Object 'Object Repository/Global search/Page_Search Results - HSBC Global A/Global search previous not selected' has attribute 'class' with actual value 'pagination' instead of expected value 'pagination__button pagination__button--previous disabled')]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 11:31:39 - [TEST_SUITE][FAILED] - AMG core regression: Test Cases/404 errors/404 error pages FAILED because (of) Unable to click on object 'Object Repository/a_Accepter' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" class="button button--primary button--large terms-and-conditions-modal__proceed" aria-describedby="terms-and-conditions-modal__active-proceed-button-description" aria-live="polite">...</a> is not clickable at point (1026, 616). Other element would receive the click: <div class="terms-and-conditions-modal__body" style="min-height: 263px; height: auto; top: 116px; bottom: 193px;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'REA0WS0240', ip: '10.193.176.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GHETHE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: b73147bb08e00de2b4f62fd321b53e8a)]]></system-out>
+      <system-err><![CDATA[2018-06-26 11:31:39 - [TEST_SUITE][FAILED] - AMG core regression: Test Cases/404 errors/404 error pages FAILED because (of) Unable to click on object 'Object Repository/a_Accepter' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" class="button button--primary button--large terms-and-conditions-modal__proceed" aria-describedby="terms-and-conditions-modal__active-proceed-button-description" aria-live="polite">...</a> is not clickable at point (1026, 616). Other element would receive the click: <div class="terms-and-conditions-modal__body" style="min-height: 263px; height: auto; top: 116px; bottom: 193px;">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'REA0WS0240', ip: '10.193.176.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\GHETHE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: b73147bb08e00de2b4f62fd321b53e8a)]]></system-err>
+   </testsuite>
+</testsuites>

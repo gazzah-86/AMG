@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Test project for HSBC AMG</description>
+   <name>HSBC AMG</name>
+   <tag></tag>
+   <UUID>d3848f8a-40bb-4487-b46d-6b79d298d5f6</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

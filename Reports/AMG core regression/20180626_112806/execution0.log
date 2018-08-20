@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-06-26T11:28:09</date>
+  <millis>1530008889880</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/AMG core regression</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">AMG core regression</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/AMG core regression</property>
+</record>
+<record>
+  <date>2018-06-26T11:28:09</date>
+  <millis>1530008889913</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;ghetherington - REA0WS0240.emea.corp.jwt.com&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">ghetherington - REA0WS0240.emea.corp.jwt.com</property>
+</record>
+<record>
+  <date>2018-06-26T11:28:09</date>
+  <millis>1530008889915</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-06-26T11:28:09</date>
+  <millis>1530008889916</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.193.176.84&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.193.176.84</property>
+</record>
+<record>
+  <date>2018-06-26T11:28:09</date>
+  <millis>1530008889917</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.4.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.4.1.1</property>
+</record>
+<record>
+  <date>2018-06-26T11:28:10</date>
+  <millis>1530008890495</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Local country disclaimer/Site disclaimer - rejection</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Local country disclaimer/Site disclaimer - rejection</property>
+  <property name="description">Site disclaimer</property>
+  <property name="id">Test Cases/Local country disclaimer/Site disclaimer - rejection</property>
+  <property name="source">C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Test Cases\\Local country disclaimer\\Site disclaimer - rejection.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-06-26T11:28:10</date>
+  <millis>1530008890549</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T11:28:11</date>
+  <millis>1530008891116</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>

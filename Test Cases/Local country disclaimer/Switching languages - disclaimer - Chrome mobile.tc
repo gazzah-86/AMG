@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Switching languages via the language switcher</description>
+   <name>Switching languages - disclaimer - Chrome mobile</name>
+   <tag>Language switcher</tag>
+   <comment></comment>
+   <testCaseGuid>e2348c9e-bb7f-4b1f-88e2-3ae272d6085d</testCaseGuid>
+</TestCaseEntity>

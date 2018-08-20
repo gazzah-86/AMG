@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>To 2018 and beyond Macro and Multi-Asset Outlook article</name>
+   <tag></tag>
+   <elementGuidId>3f30b044-a430-4a09-82b3-8811cbf508be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/en/intermediary/investor-resources/videos-and-webinars/outlook-2017-macro-and-multi-asset' and @id = 'module-17' and (text() = 'To 2018 and beyond: Macro and Multi-Asset Outlook' or . = 'To 2018 and beyond: Macro and Multi-Asset Outlook')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/en/intermediary/investor-resources/videos-and-webinars/outlook-2017-macro-and-multi-asset</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-arm-module</name>
+      <type>Main</type>
+      <value>app/widget/OrphanIconWrapper</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>module-17</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>To 2018 and beyond: Macro and Multi-Asset Outlook</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;module-17&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

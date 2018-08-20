@@ -1,0 +1,173 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AMG core regression,Chrome 67.0.3396.79,,2018-06-26 11:31:39,2018-06-26 11:35:35,3m - 56.246s,FAILED
+,,,,,,
+Test Cases/Local country disclaimer/Site disclaimer - rejection,Chrome 67.0.3396.79,Site disclaimer,2018-06-26 11:31:39,2018-06-26 11:32:19,40.136s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-06-26 11:31:40,2018-06-26 11:31:44,4.610s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 67.0.3396.79,,2018-06-26 11:31:44,2018-06-26 11:31:44,0.002s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 67.0.3396.79,,2018-06-26 11:31:44,2018-06-26 11:31:45,0.277s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.79,,2018-06-26 11:31:45,2018-06-26 11:31:48,3.009s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:31:48,2018-06-26 11:31:58,10.446s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:31:58,2018-06-26 11:31:59,1.286s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:31:59,2018-06-26 11:32:00,0.890s,PASSED
+verifyTextPresent,Chrome 67.0.3396.79,,2018-06-26 11:32:00,2018-06-26 11:32:00,0.167s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-06-26 11:32:00,2018-06-26 11:32:01,0.839s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-06-26 11:32:01,2018-06-26 11:32:04,2.536s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 67.0.3396.79,,2018-06-26 11:32:04,2018-06-26 11:32:04,0.002s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 67.0.3396.79,,2018-06-26 11:32:04,2018-06-26 11:32:04,0.006s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.79,,2018-06-26 11:32:04,2018-06-26 11:32:07,3.001s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:32:07,2018-06-26 11:32:16,9.577s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:32:16,2018-06-26 11:32:18,1.135s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:32:18,2018-06-26 11:32:18,0.903s,PASSED
+verifyTextPresent,Chrome 67.0.3396.79,,2018-06-26 11:32:18,2018-06-26 11:32:19,0.133s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-06-26 11:32:19,2018-06-26 11:32:19,0.855s,PASSED
+,,,,,,
+Test Cases/Local country disclaimer/Switching languages - disclaimer,Chrome 67.0.3396.79,Switching languages via the language switcher,2018-06-26 11:32:19,2018-06-26 11:32:42,22.926s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-06-26 11:32:20,2018-06-26 11:32:22,2.565s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 67.0.3396.79,,2018-06-26 11:32:22,2018-06-26 11:32:22,0.001s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 67.0.3396.79,,2018-06-26 11:32:22,2018-06-26 11:32:22,0.005s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.79,,2018-06-26 11:32:22,2018-06-26 11:32:25,3.001s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:32:25,2018-06-26 11:32:36,10.538s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:32:36,2018-06-26 11:32:37,1.153s,PASSED
+verifyElementText,Chrome 67.0.3396.79,,2018-06-26 11:32:37,2018-06-26 11:32:37,0.139s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:32:37,2018-06-26 11:32:37,0.111s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:32:37,2018-06-26 11:32:37,0.009s,PASSED
+refresh,Chrome 67.0.3396.79,,2018-06-26 11:32:37,2018-06-26 11:32:38,0.310s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:32:38,2018-06-26 11:32:38,0.239s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:32:38,2018-06-26 11:32:38,0.640s,PASSED
+verifyElementPresent,Chrome 67.0.3396.79,,2018-06-26 11:32:38,2018-06-26 11:32:39,0.189s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:32:39,2018-06-26 11:32:39,0.226s,PASSED
+verifyElementClickable,Chrome 67.0.3396.79,,2018-06-26 11:32:39,2018-06-26 11:32:39,0.086s,PASSED
+waitForElementVisible,Chrome 67.0.3396.79,,2018-06-26 11:32:39,2018-06-26 11:32:39,0.110s,PASSED
+verifyElementClickable,Chrome 67.0.3396.79,,2018-06-26 11:32:39,2018-06-26 11:32:39,0.072s,PASSED
+refresh,Chrome 67.0.3396.79,,2018-06-26 11:32:39,2018-06-26 11:32:39,0.239s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:32:39,2018-06-26 11:32:40,0.209s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:32:40,2018-06-26 11:32:40,0.608s,PASSED
+verifyElementPresent,Chrome 67.0.3396.79,,2018-06-26 11:32:40,2018-06-26 11:32:40,0.155s,PASSED
+delay,Chrome 67.0.3396.79,,2018-06-26 11:32:40,2018-06-26 11:32:41,1.060s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:32:41,2018-06-26 11:32:42,0.115s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-06-26 11:32:42,2018-06-26 11:32:42,0.856s,PASSED
+,,,,,,
+Test Cases/404 errors/404 error pages,Chrome 67.0.3396.79,Test cases to ensure 404 errors are working correctly,2018-06-26 11:32:42,2018-06-26 11:33:25,43.037s,FAILED
+openBrowser,Chrome 67.0.3396.79,,2018-06-26 11:32:43,2018-06-26 11:32:45,2.804s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 67.0.3396.79,,2018-06-26 11:32:45,2018-06-26 11:32:45,0.000s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 67.0.3396.79,,2018-06-26 11:32:45,2018-06-26 11:32:45,0.005s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.79,,2018-06-26 11:32:45,2018-06-26 11:32:48,3.001s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:32:48,2018-06-26 11:32:58,9.282s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:32:58,2018-06-26 11:32:59,1.131s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:32:59,2018-06-26 11:32:59,0.195s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:32:59,2018-06-26 11:32:59,0.007s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:32:59,2018-06-26 11:33:00,0.421s,PASSED
+sendKeys,Chrome 67.0.3396.79,,2018-06-26 11:33:00,2018-06-26 11:33:00,0.182s,PASSED
+verifyTextPresent,Chrome 67.0.3396.79,,2018-06-26 11:33:00,2018-06-26 11:33:00,0.133s,PASSED
+verifyElementVisible,Chrome 67.0.3396.79,,2018-06-26 11:33:00,2018-06-26 11:33:00,0.001s,NOT_RUN
+verifyElementPresent,Chrome 67.0.3396.79,,2018-06-26 11:33:00,2018-06-26 11:33:00,0.001s,NOT_RUN
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:33:00,2018-06-26 11:33:00,0.366s,PASSED
+verifyTextPresent,Chrome 67.0.3396.79,,2018-06-26 11:33:00,2018-06-26 11:33:00,0.177s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-06-26 11:33:00,2018-06-26 11:33:01,0.787s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-06-26 11:33:01,2018-06-26 11:33:04,2.543s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 67.0.3396.79,,2018-06-26 11:33:04,2018-06-26 11:33:04,0.001s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 67.0.3396.79,,2018-06-26 11:33:04,2018-06-26 11:33:04,0.006s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.79,,2018-06-26 11:33:04,2018-06-26 11:33:07,3.001s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:33:07,2018-06-26 11:33:16,9.247s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:33:16,2018-06-26 11:33:17,1.155s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:33:17,2018-06-26 11:33:17,0.161s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:33:17,2018-06-26 11:33:17,0.005s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:33:17,2018-06-26 11:33:18,0.497s,PASSED
+sendKeys,Chrome 67.0.3396.79,,2018-06-26 11:33:18,2018-06-26 11:33:18,0.167s,PASSED
+delay,Chrome 67.0.3396.79,,2018-06-26 11:33:18,2018-06-26 11:33:19,1.001s,PASSED
+verifyElementText,Chrome 67.0.3396.79,,2018-06-26 11:33:19,2018-06-26 11:33:19,0.053s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:33:19,2018-06-26 11:33:19,0.368s,PASSED
+verifyElementText,Chrome 67.0.3396.79,,2018-06-26 11:33:19,2018-06-26 11:33:19,0.120s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:33:19,2018-06-26 11:33:20,0.529s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:33:20,2018-06-26 11:33:20,0.299s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:33:20,2018-06-26 11:33:21,0.314s,PASSED
+sendKeys,Chrome 67.0.3396.79,,2018-06-26 11:33:21,2018-06-26 11:33:21,0.151s,PASSED
+delay,Chrome 67.0.3396.79,,2018-06-26 11:33:21,2018-06-26 11:33:22,1.001s,PASSED
+verifyElementText,Chrome 67.0.3396.79,,2018-06-26 11:33:22,2018-06-26 11:33:22,0.048s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:33:22,2018-06-26 11:33:22,0.352s,PASSED
+verifyElementText,Chrome 67.0.3396.79,,2018-06-26 11:33:22,2018-06-26 11:33:22,0.114s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:33:22,2018-06-26 11:33:23,0.489s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:33:23,2018-06-26 11:33:25,2.632s,FAILED
+,,,,,,
+Test Cases/Document and video filtering/Document library search and filtering,Chrome 67.0.3396.79,These test cases cover the document and video filtering on the website..,2018-06-26 11:33:25,2018-06-26 11:33:55,29.206s,FAILED
+openBrowser,Chrome 67.0.3396.79,,2018-06-26 11:33:26,2018-06-26 11:33:29,3.562s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 67.0.3396.79,,2018-06-26 11:33:29,2018-06-26 11:33:29,0.000s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 67.0.3396.79,,2018-06-26 11:33:29,2018-06-26 11:33:29,0.006s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.79,,2018-06-26 11:33:29,2018-06-26 11:33:32,3.000s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:33:32,2018-06-26 11:33:41,9.156s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:33:41,2018-06-26 11:33:43,1.144s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:33:43,2018-06-26 11:33:43,0.174s,PASSED
+scrollToPosition,Chrome 67.0.3396.79,,2018-06-26 11:33:43,2018-06-26 11:33:43,0.033s,PASSED
+delay,Chrome 67.0.3396.79,,2018-06-26 11:33:43,2018-06-26 11:33:46,3.001s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:33:46,2018-06-26 11:33:46,0.099s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-26 11:33:46,2018-06-26 11:33:46,0.151s,PASSED
+sendKeys,Chrome 67.0.3396.79,,2018-06-26 11:33:46,2018-06-26 11:33:46,0.055s,PASSED
+delay,Chrome 67.0.3396.79,,2018-06-26 11:33:46,2018-06-26 11:33:48,2.003s,PASSED
+verifyElementPresent,Chrome 67.0.3396.79,,2018-06-26 11:33:48,2018-06-26 11:33:55,6.534s,FAILED
+,,,,,,
+Test Cases/Document and video filtering/Video and webinar search and filtering,Chrome 67.0.3396.79,These test cases cover the document and video filtering on the website..,2018-06-26 11:33:55,2018-06-26 11:34:45,50.063s,FAILED
+openBrowser,Chrome 67.0.3396.79,,2018-06-26 11:33:55,2018-06-26 11:33:58,3.426s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 67.0.3396.79,,2018-06-26 11:33:58,2018-06-26 11:33:58,0.001s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 67.0.3396.79,,2018-06-26 11:33:58,2018-06-26 11:33:58,0.004s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.79,,2018-06-26 11:33:58,2018-06-26 11:34:01,3.001s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:34:01,2018-06-26 11:34:11,9.444s,PASSED
+sendKeys,Chrome 67.0.3396.79,,2018-06-26 11:34:11,2018-06-26 11:34:11,0.062s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:34:11,2018-06-26 11:34:12,1.155s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:34:12,2018-06-26 11:34:12,0.207s,PASSED
+refresh,Chrome 67.0.3396.79,,2018-06-26 11:34:12,2018-06-26 11:34:12,0.286s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:34:12,2018-06-26 11:34:45,32.221s,FAILED
+,,,,,,
+Test Cases/External modal popup/External modal popup,Chrome 67.0.3396.79,External modal popup,2018-06-26 11:34:45,2018-06-26 11:35:12,26.859s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-06-26 11:34:45,2018-06-26 11:34:48,3.369s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 67.0.3396.79,,2018-06-26 11:34:48,2018-06-26 11:34:48,0.001s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 67.0.3396.79,,2018-06-26 11:34:48,2018-06-26 11:34:48,0.004s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.79,,2018-06-26 11:34:48,2018-06-26 11:34:51,3.001s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:34:51,2018-06-26 11:35:00,9.009s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:35:00,2018-06-26 11:35:02,1.158s,PASSED
+scrollToPosition,Chrome 67.0.3396.79,,2018-06-26 11:35:02,2018-06-26 11:35:02,0.012s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:02,2018-06-26 11:35:02,0.193s,PASSED
+focus,Chrome 67.0.3396.79,,2018-06-26 11:35:02,2018-06-26 11:35:02,0.134s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:02,2018-06-26 11:35:02,0.119s,PASSED
+scrollToPosition,Chrome 67.0.3396.79,,2018-06-26 11:35:02,2018-06-26 11:35:02,0.016s,PASSED
+delay,Chrome 67.0.3396.79,,2018-06-26 11:35:02,2018-06-26 11:35:03,1.000s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:03,2018-06-26 11:35:03,0.078s,PASSED
+focus,Chrome 67.0.3396.79,,2018-06-26 11:35:03,2018-06-26 11:35:03,0.100s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:03,2018-06-26 11:35:03,0.119s,PASSED
+refresh,Chrome 67.0.3396.79,,2018-06-26 11:35:03,2018-06-26 11:35:05,1.253s,PASSED
+scrollToPosition,Chrome 67.0.3396.79,,2018-06-26 11:35:05,2018-06-26 11:35:05,0.010s,PASSED
+focus,Chrome 67.0.3396.79,,2018-06-26 11:35:05,2018-06-26 11:35:05,0.057s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:05,2018-06-26 11:35:05,0.092s,PASSED
+focus,Chrome 67.0.3396.79,,2018-06-26 11:35:05,2018-06-26 11:35:05,0.115s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:05,2018-06-26 11:35:05,0.173s,PASSED
+switchToWindowUrl,Chrome 67.0.3396.79,,2018-06-26 11:35:05,2018-06-26 11:35:11,5.614s,PASSED
+waitForElementVisible,Chrome 67.0.3396.79,,2018-06-26 11:35:11,2018-06-26 11:35:11,0.050s,PASSED
+verifyElementPresent,Chrome 67.0.3396.79,,2018-06-26 11:35:11,2018-06-26 11:35:11,0.016s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-06-26 11:35:11,2018-06-26 11:35:12,0.843s,PASSED
+,,,,,,
+Test Cases/Site search/Site search,Chrome 67.0.3396.79,Site search on HSBC AMG,2018-06-26 11:35:12,2018-06-26 11:35:34,22.713s,FAILED
+openBrowser,Chrome 67.0.3396.79,,2018-06-26 11:35:12,2018-06-26 11:35:15,2.691s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 67.0.3396.79,,2018-06-26 11:35:15,2018-06-26 11:35:15,0.000s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 67.0.3396.79,,2018-06-26 11:35:15,2018-06-26 11:35:15,0.005s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.79,,2018-06-26 11:35:15,2018-06-26 11:35:18,3.000s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-26 11:35:18,2018-06-26 11:35:27,9.184s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-26 11:35:27,2018-06-26 11:35:28,1.147s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:28,2018-06-26 11:35:28,0.184s,PASSED
+waitForElementVisible,Chrome 67.0.3396.79,,2018-06-26 11:35:28,2018-06-26 11:35:28,0.064s,PASSED
+delay,Chrome 67.0.3396.79,,2018-06-26 11:35:28,2018-06-26 11:35:29,1.001s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:29,2018-06-26 11:35:29,0.085s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-26 11:35:29,2018-06-26 11:35:29,0.124s,PASSED
+sendKeys,Chrome 67.0.3396.79,,2018-06-26 11:35:29,2018-06-26 11:35:32,2.769s,PASSED
+verifyElementPresent,Chrome 67.0.3396.79,,2018-06-26 11:35:32,2018-06-26 11:35:32,0.036s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.79,,2018-06-26 11:35:32,2018-06-26 11:35:32,0.187s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.79,,2018-06-26 11:35:32,2018-06-26 11:35:32,0.050s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.79,,2018-06-26 11:35:32,2018-06-26 11:35:32,0.042s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:32,2018-06-26 11:35:33,0.132s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.79,,2018-06-26 11:35:33,2018-06-26 11:35:33,0.042s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.79,,2018-06-26 11:35:33,2018-06-26 11:35:33,0.040s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.79,,2018-06-26 11:35:33,2018-06-26 11:35:33,0.027s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:33,2018-06-26 11:35:33,0.094s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.79,,2018-06-26 11:35:33,2018-06-26 11:35:33,0.034s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.79,,2018-06-26 11:35:33,2018-06-26 11:35:33,0.026s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-26 11:35:33,2018-06-26 11:35:33,0.095s,PASSED
+scrollToPosition,Chrome 67.0.3396.79,,2018-06-26 11:35:33,2018-06-26 11:35:33,0.018s,PASSED
+verifyElementAttributeValue,Chrome 67.0.3396.79,,2018-06-26 11:35:33,2018-06-26 11:35:34,1.383s,FAILED

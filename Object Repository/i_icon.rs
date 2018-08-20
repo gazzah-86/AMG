@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_icon</name>
+   <tag></tag>
+   <elementGuidId>fadb75b4-0d15-471f-8443-4c30f9fcf338</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;countrySwitcher&quot;]/a/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[count(. | //*[@aria-hidden = 'true']) = count(//*[@aria-hidden = 'true'])][count(. | id(&quot;countrySwitcher&quot;)/a[@class=&quot;country-switcher__current&quot;]/i[@class=&quot;icon&quot;]) = count(id(&quot;countrySwitcher&quot;)/a[@class=&quot;country-switcher__current&quot;]/i[@class=&quot;icon&quot;])][count(. | //*[@class = 'country-switcher__current']) = count(//*[@class = 'country-switcher__current'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;countrySwitcher&quot;)/a[@class=&quot;country-switcher__current&quot;]/i[@class=&quot;icon&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>country-switcher__current</value>
+   </webElementProperties>
+</WebElementEntity>

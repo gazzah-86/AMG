@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>These test cases cover the document and video filtering on the website..</description>
+   <name>Video and webinar search and filtering</name>
+   <tag>AMG</tag>
+   <comment></comment>
+   <testCaseGuid>fa8eec53-8ff8-4b80-9b84-ca83a1732068</testCaseGuid>
+</TestCaseEntity>

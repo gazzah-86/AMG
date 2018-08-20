@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Gareth test</name>
+   <tag></tag>
+   <elementGuidId>20488671-885c-4954-819e-2864f0e6bc59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[count(. | //*[@href = '/-/media/files/attachments/common/resource-documents/ch/archived-from-ch-311017/emerging-markets-investor-guide.pdf']) = count(//*[@href = '/-/media/files/attachments/common/resource-documents/ch/archived-from-ch-311017/emerging-markets-investor-guide.pdf'])][count(. | //*[text() = 'Download Emerging Markets Investor Guide']) = count(//*[text() = 'Download Emerging Markets Investor Guide'])][count(. | //*[@id = 'heroa0c36190012640d296124ba29612e951']) = count(//*[@id = 'heroa0c36190012640d296124ba29612e951'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/-/media/files/attachments/common/resource-documents/ch/archived-from-ch-311017/emerging-markets-investor-guide.pdf</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button button--secondary-slate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download Emerging Markets Investor Guide</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;heroa0c36190012640d296124ba29612e951&quot;)/div[@class=&quot;hero__inner&quot;]/div[@class=&quot;hero__main-container&quot;]/div[@class=&quot;hero__main-container-inner&quot;]/div[@class=&quot;hero__upper-component&quot;]/div[@class=&quot;hero-promo&quot;]/div[@class=&quot;hero-promo__inner&quot;]/div[@class=&quot;hero-promo__cta&quot;]/a[@class=&quot;button button--secondary-slate&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>heroa0c36190012640d296124ba29612e951</value>
+   </webElementProperties>
+</WebElementEntity>

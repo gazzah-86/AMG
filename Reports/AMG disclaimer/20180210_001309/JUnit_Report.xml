@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AMG disclaimer" time="57" tests="2" failures="0" errors="0">
+   <testsuite name="AMG disclaimer" tests="2" failures="0" errors="0" time="57" timestamp="2018-02-10 00:13:11" hostname="ghetherington - REA0WS0240.emea.corp.jwt.com" id="Test Suites/AMG disclaimer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG disclaimer\\20180210_001309"/>
+         <property name="logFiles" value="C:\\Users\\ghetherington\\Katalon Studio\\HSBC AMG\\Reports\\AMG disclaimer\\20180210_001309\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ghetherington - REA0WS0240.emea.corp.jwt.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.140"/>
+         <property name="hostAddress" value="192.168.0.14"/>
+         <property name="sessionId" value="1606ade1b7dda40419024e4c22712b6c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Local country cookie/Site disclaimer - rejection" classname="Test Cases/Local country cookie/Site disclaimer - rejection" status="PASSED">
+         <system-out><![CDATA[2018-02-10 00:13:11 - [TEST_CASE][PASSED] - Test Cases/Local country cookie/Site disclaimer - rejection: Test Cases/Local country cookie/Site disclaimer - rejection
+
+2018-02-10 00:13:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-10 00:13:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-10 00:13:15 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-02-10 00:13:15 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-02-10 00:13:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-02-10 00:13:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor' successfully
+
+2018-02-10 00:13:18 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.cd.rs.hwuat.co.uk/en/institutional-investor' successfully
+
+2018-02-10 00:13:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-10 00:13:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-10 00:13:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Decline' is clicked on
+
+2018-02-10 00:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Decline' is clicked on
+
+2018-02-10 00:13:29 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to HSBC Global Asset Management' is present on page 
+
+2018-02-10 00:13:29 - [MESSAGE][PASSED] - Text 'Welcome to HSBC Global Asset Management' is present on page 
+
+2018-02-10 00:13:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-10 00:13:30 - [MESSAGE][PASSED] - Browser is closed
+
+2018-02-10 00:13:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-10 00:13:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-10 00:13:32 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-02-10 00:13:32 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-02-10 00:13:32 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-02-10 00:13:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/de-ch/qualified-investor' successfully
+
+2018-02-10 00:13:36 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/de-ch/qualified-investor' successfully
+
+2018-02-10 00:13:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-10 00:13:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-10 00:13:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Ablehnen' is clicked on
+
+2018-02-10 00:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Ablehnen' is clicked on
+
+2018-02-10 00:13:46 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Willkommen bei HSBC Global Asset Management (Switzerland)' is present on page 
+
+2018-02-10 00:13:46 - [MESSAGE][PASSED] - Text 'Willkommen bei HSBC Global Asset Management (Switzerland)' is present on page 
+
+2018-02-10 00:13:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-10 00:13:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Local country cookie/Switching languages - disclaimer" classname="Test Cases/Local country cookie/Switching languages - disclaimer" status="PASSED">
+         <system-out><![CDATA[2018-02-10 00:13:47 - [TEST_CASE][PASSED] - Test Cases/Local country cookie/Switching languages - disclaimer: Test Cases/Local country cookie/Switching languages - disclaimer
+
+2018-02-10 00:13:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-10 00:13:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-10 00:13:50 - [TEST_STEP][PASSED] - Statement - autoit_prj = "C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe": null
+
+2018-02-10 00:13:50 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2018-02-10 00:13:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-02-10 00:13:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor' successfully
+
+2018-02-10 00:13:53 - [MESSAGE][PASSED] - Navigate to 'http://hsbc.amg.sitecore.ch.cd.rs.hwuat.co.uk/en/qualified-investor' successfully
+
+2018-02-10 00:13:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/h3_Terms and conditions' are matched.
+
+2018-02-10 00:14:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/h3_Terms and conditions' are matched.
+
+2018-02-10 00:14:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Accept' is clicked on
+
+2018-02-10 00:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Accept' is clicked on
+
+2018-02-10 00:14:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-10 00:14:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-10 00:14:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Country switcher' is clicked on
+
+2018-02-10 00:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Country switcher' is clicked on
+
+2018-02-10 00:14:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Deutsch' is clicked on
+
+2018-02-10 00:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Deutsch' is clicked on
+
+2018-02-10 00:14:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/h3_Nutzungsbedingungen' is present
+
+2018-02-10 00:14:05 - [MESSAGE][PASSED] - Object 'Object Repository/h3_Nutzungsbedingungen' is present
+
+2018-02-10 00:14:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Annehmen' is clicked on
+
+2018-02-10 00:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Annehmen' is clicked on
+
+2018-02-10 00:14:06 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/a_Emerging Markets Investor Gu' is clickable
+
+2018-02-10 00:14:06 - [MESSAGE][PASSED] - Object 'Object Repository/a_Emerging Markets Investor Gu' is clickable
+
+2018-02-10 00:14:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Country switcher' is visible
+
+2018-02-10 00:14:06 - [MESSAGE][PASSED] - Object 'Object Repository/Country switcher' is visible
+
+2018-02-10 00:14:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Country switcher' is clicked on
+
+2018-02-10 00:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Country switcher' is clicked on
+
+2018-02-10 00:14:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Franais' is clicked on
+
+2018-02-10 00:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Franais' is clicked on
+
+2018-02-10 00:14:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/h3_Conditions gnrales' is present
+
+2018-02-10 00:14:07 - [MESSAGE][PASSED] - Object 'Object Repository/h3_Conditions gnrales' is present
+
+2018-02-10 00:14:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Accepter' is clicked on
+
+2018-02-10 00:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Accepter' is clicked on
+
+2018-02-10 00:14:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-10 00:14:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-10 00:13:11 - [TEST_SUITE][PASSED] - AMG disclaimer: Test Cases/Local country cookie/Switching languages - disclaimer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

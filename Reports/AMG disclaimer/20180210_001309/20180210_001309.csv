@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AMG disclaimer,Chrome 64.0.3282.140,,2018-02-10 00:13:11,2018-02-10 00:14:09,57.921s,PASSED
+,,,,,,
+Test Cases/Local country cookie/Site disclaimer - rejection,Chrome 64.0.3282.140,Site disclaimer,2018-02-10 00:13:11,2018-02-10 00:13:47,35.991s,PASSED
+openBrowser,Chrome 64.0.3282.140,,2018-02-10 00:13:12,2018-02-10 00:13:15,3.388s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 64.0.3282.140,,2018-02-10 00:13:15,2018-02-10 00:13:15,0.002s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 64.0.3282.140,,2018-02-10 00:13:15,2018-02-10 00:13:15,0.012s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 64.0.3282.140,,2018-02-10 00:13:15,2018-02-10 00:13:18,3.007s,PASSED
+navigateToUrl,Chrome 64.0.3282.140,,2018-02-10 00:13:18,2018-02-10 00:13:18,0.464s,PASSED
+maximizeWindow,Chrome 64.0.3282.140,,2018-02-10 00:13:18,2018-02-10 00:13:20,1.170s,PASSED
+click,Chrome 64.0.3282.140,,2018-02-10 00:13:20,2018-02-10 00:13:29,9.337s,PASSED
+verifyTextPresent,Chrome 64.0.3282.140,,2018-02-10 00:13:29,2018-02-10 00:13:29,0.197s,PASSED
+closeBrowser,Chrome 64.0.3282.140,,2018-02-10 00:13:29,2018-02-10 00:13:30,0.874s,PASSED
+openBrowser,Chrome 64.0.3282.140,,2018-02-10 00:13:30,2018-02-10 00:13:32,2.256s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 64.0.3282.140,,2018-02-10 00:13:32,2018-02-10 00:13:32,0.001s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 64.0.3282.140,,2018-02-10 00:13:32,2018-02-10 00:13:32,0.010s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 64.0.3282.140,,2018-02-10 00:13:32,2018-02-10 00:13:35,3.002s,PASSED
+navigateToUrl,Chrome 64.0.3282.140,,2018-02-10 00:13:35,2018-02-10 00:13:36,0.491s,PASSED
+maximizeWindow,Chrome 64.0.3282.140,,2018-02-10 00:13:36,2018-02-10 00:13:37,1.174s,PASSED
+click,Chrome 64.0.3282.140,,2018-02-10 00:13:37,2018-02-10 00:13:46,9.130s,PASSED
+verifyTextPresent,Chrome 64.0.3282.140,,2018-02-10 00:13:46,2018-02-10 00:13:46,0.222s,PASSED
+closeBrowser,Chrome 64.0.3282.140,,2018-02-10 00:13:46,2018-02-10 00:13:47,0.866s,PASSED
+,,,,,,
+Test Cases/Local country cookie/Switching languages - disclaimer,Chrome 64.0.3282.140,Switching languages via the language switcher,2018-02-10 00:13:47,2018-02-10 00:14:09,21.525s,PASSED
+openBrowser,Chrome 64.0.3282.140,,2018-02-10 00:13:47,2018-02-10 00:13:50,2.284s,PASSED
+"Statement - autoit_prj = ""C:\Users\ghetherington\Katalon Studio\HSBC AMG\autoIT\AMG credentials.exe""",Chrome 64.0.3282.140,,2018-02-10 00:13:50,2018-02-10 00:13:50,0.002s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 64.0.3282.140,,2018-02-10 00:13:50,2018-02-10 00:13:50,0.009s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 64.0.3282.140,,2018-02-10 00:13:50,2018-02-10 00:13:53,3.002s,PASSED
+navigateToUrl,Chrome 64.0.3282.140,,2018-02-10 00:13:53,2018-02-10 00:13:53,0.501s,PASSED
+verifyElementText,Chrome 64.0.3282.140,,2018-02-10 00:13:53,2018-02-10 00:14:03,9.542s,PASSED
+click,Chrome 64.0.3282.140,,2018-02-10 00:14:03,2018-02-10 00:14:03,0.336s,PASSED
+maximizeWindow,Chrome 64.0.3282.140,,2018-02-10 00:14:03,2018-02-10 00:14:04,1.143s,PASSED
+click,Chrome 64.0.3282.140,,2018-02-10 00:14:04,2018-02-10 00:14:05,0.276s,PASSED
+click,Chrome 64.0.3282.140,,2018-02-10 00:14:05,2018-02-10 00:14:05,0.658s,PASSED
+verifyElementPresent,Chrome 64.0.3282.140,,2018-02-10 00:14:05,2018-02-10 00:14:05,0.248s,PASSED
+click,Chrome 64.0.3282.140,,2018-02-10 00:14:05,2018-02-10 00:14:06,0.477s,PASSED
+verifyElementClickable,Chrome 64.0.3282.140,,2018-02-10 00:14:06,2018-02-10 00:14:06,0.300s,PASSED
+waitForElementVisible,Chrome 64.0.3282.140,,2018-02-10 00:14:06,2018-02-10 00:14:06,0.109s,PASSED
+click,Chrome 64.0.3282.140,,2018-02-10 00:14:06,2018-02-10 00:14:06,0.150s,PASSED
+click,Chrome 64.0.3282.140,,2018-02-10 00:14:06,2018-02-10 00:14:07,0.674s,PASSED
+verifyElementPresent,Chrome 64.0.3282.140,,2018-02-10 00:14:07,2018-02-10 00:14:07,0.081s,PASSED
+click,Chrome 64.0.3282.140,,2018-02-10 00:14:07,2018-02-10 00:14:08,0.568s,PASSED
+closeBrowser,Chrome 64.0.3282.140,,2018-02-10 00:14:08,2018-02-10 00:14:09,0.961s,PASSED
